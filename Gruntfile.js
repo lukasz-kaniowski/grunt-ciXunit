@@ -1,5 +1,5 @@
 /*
- * grunt-ciXunit
+ * grunt-cixunit
  * https://github.com/lukasz-kaniowski/grunt-ciXunit
  *
  * Copyright (c) 2014 Lukasz Kaniowski
@@ -30,7 +30,7 @@ module.exports = function (grunt) {
         },
 
         // Configuration to be run (and then tested).
-        ciXunit: {
+        cixunit: {
             options: {
                 files: [
                     {in: 'test/fixture/sampleLog.log', out: 'tmp/sampleLog.xml'},
@@ -54,7 +54,7 @@ module.exports = function (grunt) {
 
     // Whenever the "test" task is run, first clean the "tmp" dir, then run this
     // plugin's task(s), then test the result.
-    grunt.registerTask('test', ['clean', 'ciXunit', 'mochaTest']);
+    grunt.registerTask('test', ['clean', 'cixunit', 'mochaTest']);
 
     // By default, lint and run all tests.
     grunt.registerTask('default', ['jshint', 'test']);

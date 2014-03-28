@@ -1,5 +1,5 @@
 /*
- * grunt-ciXunit
+ * grunt-cixunit
  * https://github.com/lukasz-kaniowski/grunt-ciXunit
  *
  * Copyright (c) 2014 Lukasz Kaniowski
@@ -13,7 +13,7 @@ var Q = require('q'),
 
 module.exports = function (grunt) {
 
-    grunt.registerTask('ciXunit', 'Helpers for parsing log output to xunit format', function () {
+    grunt.registerTask('cixunit', 'Helpers for parsing log output to xunit format', function () {
         var done = this.async(),
             options = this.options({
                 files: []
