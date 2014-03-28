@@ -1,0 +1,11 @@
+Some sample text strings
+other text < with
+
+<testsuite name="Mocha Tests" tests="124" failures="1" errors="1" skipped="0" timestamp="Fri, 28 Mar 2014 09:42:00 GMT" time="8.092">
+<testcase classname="classname" name="name" time="0.097"/>
+
+asdf
+asfsadf
+</testsuite>
+
+asdfas
