@@ -1,48 +1,48 @@
 {
-    "name": "grunt-cixunit",
-    "description": "Helpers for parsing log output to Xunit format",
-    "version": "0.1.0",
-    "homepage": "https://github.com/ukache/grunt-contrib-ci-xunit",
-    "author": {
-        "name": "Lukasz Kaniowski",
-        "email": "lukasz.kaniowski@gmail.com"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git@github.com:lukasz-kaniowski/grunt-ciXunit.git"
-    },
-    "bugs": {
-        "url": "https://github.com/lukasz-kaniowski/grunt-ciXunit/issues"
-    },
-    "licenses": [
-        {
-            "type": "MIT",
-            "url": "https://github.com/lukasz-kaniowski/grunt-ciXunit/blob/master/LICENSE-MIT"
-        }
-    ],
-    "engines": {
-        "node": ">= 0.8.0"
-    },
-    "scripts": {
-        "test": "grunt test"
-    },
-    "devDependencies": {
-        "grunt-contrib-jshint": "~0.6.0",
-        "grunt-contrib-clean": "~0.4.0",
-        "grunt-contrib-nodeunit": "~0.2.0",
-        "grunt": "~0.4.4",
-        "grunt-mocha-test": "~0.10.0",
-        "chai": "~1.9.1",
-        "load-grunt-tasks": "~0.4.0"
-    },
-    "peerDependencies": {
-        "grunt": "~0.4.4"
-    },
-    "keywords": [
-        "gruntplugin"
-    ],
-    "dependencies": {
-        "grep1": "0.0.5",
-        "q": "~1.0.1"
+  "name": "grunt-cixunit",
+  "description": "Helpers for parsing log output to Xunit format",
+  "version": "0.1.0",
+  "homepage": "https://github.com/ukache/grunt-contrib-ci-xunit",
+  "author": {
+    "name": "Lukasz Kaniowski",
+    "email": "lukasz.kaniowski@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:lukasz-kaniowski/grunt-ciXunit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lukasz-kaniowski/grunt-ciXunit/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/lukasz-kaniowski/grunt-ciXunit/blob/master/LICENSE-MIT"
     }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt": "~0.4.4",
+    "grunt-mocha-test": "~0.10.0",
+    "chai": "~1.9.1",
+    "load-grunt-tasks": "~0.4.0",
+    "chai-as-promised": "~4.1.1"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.4"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "dependencies": {
+    "q": "~1.0.1"
+  }
 }

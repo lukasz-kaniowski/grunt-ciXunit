@@ -27,8 +27,8 @@ module.exports = function (grunt) {
                     grunt.file.write(file.out, output);
                     return;
                 })
-                .fail(function () {
-                    grunt.log.writeln('Failed for file ' + file);
+                .fail(function (err) {
+                    grunt.log.writeln('Failed for file ', JSON.stringify(file), 'with error: ', err);
                     return;
                 });
         };

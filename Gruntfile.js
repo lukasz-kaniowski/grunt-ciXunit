@@ -41,7 +41,7 @@ module.exports = function (grunt) {
 
         // Unit tests.
         mochaTest: {
-            unit: ['test/**/*.spec.js'],
+            unit: ['test/**/*.spec.js', 'test/setupMocha.js'],
             options: {
                 reporter: 'spec'
             }
