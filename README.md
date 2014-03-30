@@ -57,5 +57,7 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 ## Release History
 
+### 0.1.1
+    * handling not existing files and files without junit markup, unit tests
 ### 0.1.0
- - parsing log output to produce junit xml report
+    * parsing log output to produce junit xml report
