@@ -2,6 +2,8 @@
 
 > Helpers for parsing log output to Xunit format
 
+[![Build Status](https://travis-ci.org/lukasz-kaniowski/grunt-ciXunit.svg?branch=master)](https://travis-ci.org/lukasz-kaniowski/grunt-ciXunit)
+
 This plugin filters noise in your test output to produce correct junit xml files to use by ci reporters.
 
 ## Getting Started
