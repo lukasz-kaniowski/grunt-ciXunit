@@ -1,8 +1,9 @@
 # grunt-cixunit
+[![Build Status](https://travis-ci.org/lukasz-kaniowski/grunt-ciXunit.svg?branch=master)](https://travis-ci.org/lukasz-kaniowski/grunt-ciXunit)
 
 > Helpers for parsing log output to Xunit format
 
-[![Build Status](https://travis-ci.org/lukasz-kaniowski/grunt-ciXunit.svg?branch=master)](https://travis-ci.org/lukasz-kaniowski/grunt-ciXunit)
+
 
 This plugin filters noise in your test output to produce correct junit xml files to use by ci reporters.
 
@@ -58,6 +59,9 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 ## Release History
 
 ### 0.1.1
-    * handling not existing files and files without junit markup, unit tests
+
+* handling not existing files and files without junit markup, unit tests
+
 ### 0.1.0
-    * parsing log output to produce junit xml report
+
+* parsing log output to produce junit xml report
